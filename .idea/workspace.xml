@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="adding dependencies and connecting with the new data base">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="using database" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,12 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1751138146782</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="using database">
+      <option name="closed" value="true" />
+      <created>1751141686809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751141686809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;creating workspace, using request and sending json to localhost&quot;" />
     <MESSAGE value="adding dependencies and connecting with the new data base" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding dependencies and connecting with the new data base" />
+    <MESSAGE value="using database" />
+    <option name="LAST_COMMIT_MESSAGE" value="using database" />
   </component>
 </project>
