@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="using database" />
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="using database">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/DatosDireccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/Direccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DatosRegistroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DatosRegistroMedico.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
