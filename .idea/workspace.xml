@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="using database">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/DatosDireccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="using lombok anotations">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicosController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/Direccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DatosRegistroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DatosRegistroMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
         <option value="Enum" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -123,13 +125,22 @@
       <option name="project" value="LOCAL" />
       <updated>1751141686809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="using lombok anotations">
+      <option name="closed" value="true" />
+      <created>1751143588865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751143588865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;creating workspace, using request and sending json to localhost&quot;" />
     <MESSAGE value="adding dependencies and connecting with the new data base" />
     <MESSAGE value="using database" />
-    <option name="LAST_COMMIT_MESSAGE" value="using database" />
+    <MESSAGE value="using lombok anotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="using lombok anotations" />
   </component>
 </project>

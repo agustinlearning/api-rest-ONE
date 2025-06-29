@@ -1,7 +1,6 @@
 package med.voll.api.direccion;
 
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Embedded;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,4 +17,14 @@ public class Direccion {
     private String codigo_postal;
     private String ciudad;
     private String estado;
+
+    public Direccion(DatosDireccion datosDireccion) {
+        this.calle = datosDireccion.calle();
+        this.numero = datosDireccion.numero();
+        this.complemento = datosDireccion.complemento();
+        this.barrio = datosDireccion.barrio();
+        this.ciudad = datosDireccion.ciudad();
+        this.codigo_postal = datosDireccion.codigo_postal();
+        this.estado = datosDireccion.estado();
+    }
 }
