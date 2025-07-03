@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="adding method actualizar to MedicosController" />
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="adding record DatosActualizacionMedico">
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DatosActualizacionMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DatosActualizacionMedico.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751568913724</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding record DatosActualizacionMedico">
+      <option name="closed" value="true" />
+      <created>1751569153328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751569153328</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +199,7 @@
     <MESSAGE value="adding telefono to the jpa entity Medico.java" />
     <MESSAGE value="adding sort to listar method and order by nombre and size" />
     <MESSAGE value="adding method actualizar to MedicosController" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding method actualizar to MedicosController" />
+    <MESSAGE value="adding record DatosActualizacionMedico" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding record DatosActualizacionMedico" />
   </component>
 </project>

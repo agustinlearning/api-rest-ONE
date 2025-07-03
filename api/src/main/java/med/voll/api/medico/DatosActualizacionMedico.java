@@ -1,4 +1,11 @@
 package med.voll.api.medico;
 
-public record DatosActualizacionMedico() {
+import med.voll.api.direccion.DatosDireccion;
+
+public record DatosActualizacionMedico(
+        Long id,
+        String nombre,
+        String telefono,
+        DatosDireccion direccion
+) {
 }
