@@ -6,6 +6,9 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import med.voll.api.direccion.Direccion;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
 
 @Table(name = "Medicos")
 @Entity(name = "Medico")
