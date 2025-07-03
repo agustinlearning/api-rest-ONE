@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="using eliminar method for deleted medics">
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V3__alter-table-medicos-add-column-activo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="adding V__3 migration and add method eliminar in medico">
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751571294216</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adding V__3 migration and add method eliminar in medico">
+      <option name="closed" value="true" />
+      <created>1751574970963</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1751574970963</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,6 +275,7 @@
     <MESSAGE value="adding @NotNull anotation to id of DatosActualizacionMedico" />
     <MESSAGE value="creating method elimiar in MedicosController" />
     <MESSAGE value="using eliminar method for deleted medics" />
-    <option name="LAST_COMMIT_MESSAGE" value="using eliminar method for deleted medics" />
+    <MESSAGE value="adding V__3 migration and add method eliminar in medico" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding V__3 migration and add method eliminar in medico" />
   </component>
 </project>
