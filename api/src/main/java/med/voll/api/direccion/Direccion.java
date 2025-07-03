@@ -27,4 +27,10 @@ public class Direccion {
         this.codigo_postal = datosDireccion.codigo_postal();
         this.estado = datosDireccion.estado();
     }
+
+    public void actualizarDirecion(DatosDireccion datos) {
+        if (datos.calle() != null) {
+            this.calle = datos.calle();
+        }
+    }
 }

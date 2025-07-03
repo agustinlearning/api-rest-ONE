@@ -47,5 +47,11 @@ public class Medico {
         if(datos.nombre() != null) {
             this.nombre = datos.nombre();
         }
+        if(datos.telefono() != null) {
+            this.telefono = datos.telefono();
+        }
+        if(datos.direccion() != null) {
+            this.direccion.actualizarDirecion(datos.direccion());
+        }
     }
 }
