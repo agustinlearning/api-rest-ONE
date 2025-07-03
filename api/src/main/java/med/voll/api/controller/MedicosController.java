@@ -30,4 +30,10 @@ public class MedicosController {
     public Page<DatosListaMedicos> listar(@PageableDefault(size=10, sort={"nombre"}) Pageable paginacion){
         return repository.findAll(paginacion).map(DatosListaMedicos::new);
     }
+
+    @Transactional
+    @PutMapping
+    public void actualizar(){
+
+    }
 }
