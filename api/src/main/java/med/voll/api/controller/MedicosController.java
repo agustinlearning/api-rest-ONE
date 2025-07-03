@@ -35,9 +35,18 @@ public class MedicosController {
         medico.actualizarInformaciones(datos);
     }
 
+    // para hacer una eliminacion fisica del medico
+//    @Transactional
+//    @DeleteMapping("/{id}")
+//    public void eliminar(@PathVariable Long id){
+//        repository.deleteById(id);
+//    }
+
+    //para hacer eliminacion logica del medico
     @Transactional
     @DeleteMapping("/{id}")
     public void eliminar(@PathVariable Long id){
-        repository.deleteById(id);
+        var medico = repository.getReferenceById(id);
+        medico.elimiar();
     }
 }
