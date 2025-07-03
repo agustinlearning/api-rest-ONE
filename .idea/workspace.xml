@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="creating method actualizarDirecion in Direccion">
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/direccion/Direccion.java" afterDir="false" />
-    </list>
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="changing name method actualizarinformaciones to actualizarInformaciones (camel case)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751569895199</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="using method actualizarDirecion">
+      <option name="closed" value="true" />
+      <created>1751570050343</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1751570050343</updated>
+    </task>
+    <task id="LOCAL-00015" summary="changing name method actualizarinformaciones to actualizarInformaciones (camel case)">
+      <option name="closed" value="true" />
+      <created>1751570159273</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1751570159273</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +232,8 @@
     <MESSAGE value="adding record DatosActualizacionMedico" />
     <MESSAGE value="creating method actualizarinformaciones" />
     <MESSAGE value="creating method actualizarDirecion in Direccion" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating method actualizarDirecion in Direccion" />
+    <MESSAGE value="using method actualizarDirecion" />
+    <MESSAGE value="changing name method actualizarinformaciones to actualizarInformaciones (camel case)" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing name method actualizarinformaciones to actualizarInformaciones (camel case)" />
   </component>
 </project>
