@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="adding @NotNull anotation to id of DatosActualizacionMedico" />
+    <list default="true" id="68ef4cc5-cb06-4ef8-b2bd-40a92970c2ab" name="Changes" comment="creating method elimiar in MedicosController" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751570652162</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="creating method elimiar in MedicosController">
+      <option name="closed" value="true" />
+      <created>1751571017635</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751571017635</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +251,7 @@
     <MESSAGE value="using method actualizarDirecion" />
     <MESSAGE value="changing name method actualizarinformaciones to actualizarInformaciones (camel case)" />
     <MESSAGE value="adding @NotNull anotation to id of DatosActualizacionMedico" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding @NotNull anotation to id of DatosActualizacionMedico" />
+    <MESSAGE value="creating method elimiar in MedicosController" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating method elimiar in MedicosController" />
   </component>
 </project>
