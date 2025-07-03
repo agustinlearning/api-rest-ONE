@@ -8,5 +8,5 @@ import java.util.Optional;
 
 public interface MedicoRepository extends JpaRepository<Medico, Long> {
 
-    Page<Medico> findAllByActivotrue(Pageable paginacion);
+    Page<Medico> findAllByActivoTrue(Pageable paginacion);
 }
