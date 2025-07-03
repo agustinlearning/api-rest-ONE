@@ -43,7 +43,7 @@ public class Medico {
 
     }
 
-    public void actualizarinformaciones(@Valid DatosActualizacionMedico datos) {
+    public void actualizarInformaciones(@Valid DatosActualizacionMedico datos) {
         if(datos.nombre() != null) {
             this.nombre = datos.nombre();
         }

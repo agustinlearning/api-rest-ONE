@@ -32,6 +32,6 @@ public class MedicosController {
     @PutMapping
     public void actualizar(@RequestBody @Valid DatosActualizacionMedico datos){
         var medico = repository.getReferenceById(datos.id());
-        medico.actualizarinformaciones(datos);
+        medico.actualizarInformaciones(datos);
     }
 }
