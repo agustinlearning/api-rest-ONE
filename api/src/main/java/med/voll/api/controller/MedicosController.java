@@ -34,4 +34,9 @@ public class MedicosController {
         var medico = repository.getReferenceById(datos.id());
         medico.actualizarInformaciones(datos);
     }
+
+    @DeleteMapping
+    public void eliminar(){
+
+    }
 }
